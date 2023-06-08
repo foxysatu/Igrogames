@@ -1,0 +1,23 @@
+.input_block{
+    display: flex;
+    flex-direction: column;
+}
+.mr{
+    width: 200px;
+    
+}
+.md{
+    width: 200px;
+    margin-top: 20px;
+}
+.pr{
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+}
+.inch-class{
+    width: 210px;
+}
+.screen{
+    width: 210px;
+}
