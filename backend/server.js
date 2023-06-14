@@ -135,10 +135,7 @@ app.post('/uploadphoto', upload.single('img'), (reg, res)=>{
     const data = {
         dataFile: reg.file.path,
         name: JSON.parse(reg.body.dataPost).name,
-        description: JSON.parse(reg.body.dataPost).description,
         kod: JSON.parse(reg.body.dataPost).kod,
-        inch: JSON.parse(reg.body.dataPost).inch,
-        screen: JSON.parse(reg.body.dataPost).screen,
         price: JSON.parse(reg.body.dataPost).price,
 
         
@@ -169,7 +166,7 @@ app.post('/Orders', (reg, res)=>{
     // sendMessage.send(reg.body.name, reg.body.secName, reg.body.model, reg.body.mail);
     
 
-    
+
     
     db
     .collection('Orders')

@@ -5,10 +5,7 @@
     const files = document.getElementById("image").files;
     const txt = {
         name: document.getElementById("name").value,
-        description: document.getElementById("description").value,
         kod: document.getElementById("kod").value,
-        inch: document.getElementById("inch-select").value,
-        screen: document.getElementById("screen").value, 
         price: document.getElementById("price").value,
 
     };
