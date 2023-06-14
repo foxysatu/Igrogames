@@ -33,5 +33,3 @@ async function ShowCard(){
  
 } 
 ShowCard();
-  
-
