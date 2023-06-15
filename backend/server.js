@@ -136,10 +136,9 @@ app.post('/uploadphoto', upload.single('img'), (reg, res)=>{
         dataFile: reg.file.path,
         name: JSON.parse(reg.body.dataPost).name,
         kod: JSON.parse(reg.body.dataPost).kod,
+        description: JSON.parse(reg.body.dataPost).description,
         price: JSON.parse(reg.body.dataPost).price,
 
-        
-        
     };
     
     db

@@ -70,50 +70,7 @@
     $('.collapse').on('hidden.bs.collapse', function () {
         $(this).prev().removeClass('active');
     });
-
-    // /*--------------------------
-    //     Banner Slider
-    // ----------------------------*/
-    // $(".banner__slider").owlCarousel({
-    //     loop: true,
-    //     margin: 0,
-    //     items: 1,
-    //     dots: true,
-    //     smartSpeed: 1200,
-    //     autoHeight: false,
-    //     autoplay: true
-    // });
-
-    /*--------------------------
-        Banner Slider Picture
-    ----------------------------*/
-
-    document.addEventListener("DOMContentLoaded", function(event) {
-        var currentIndex = 0;
-        var banners = document.getElementsByClassName("slider-item");
       
-        function showBanner(index) {
-          for (var i = 0; i < banners.length; i++) {
-            banners[i].style.display = "none";
-          }
-          banners[index].style.display = "block";
-        }
-      
-        function nextBanner() {
-          currentIndex++;
-          if (currentIndex >= banners.length) {
-            currentIndex = 0;
-          }
-          showBanner(currentIndex);
-        }
-      
-        setInterval(nextBanner, 3000); // Смена баннера каждые 3 секунды
-      
-        showBanner(currentIndex);
-      });
-      
-      
-
     /*--------------------------
         Product Details Slider
     ----------------------------*/
