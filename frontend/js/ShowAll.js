@@ -10,9 +10,9 @@ async function ShowAll() {
       const { dataFile, name, kod, price } = object;
       return `
         <div class="col-lg-3 col-md-4 col-sm-6 mix ${object.category}" onclick="location.href='../frontend/product-details.html?kod=${kod}'">
-          <div class="product__item">
+          <div class="product__item border__product">
             <div class="product__item__pic set-bg">
-            <img src="http://127.0.0.1:3000/${dataFile}" width=262.5 height=360 />
+            <img src="http://127.0.0.1:3000/${dataFile}"   />
             </div>
             <div class="product__item__text">
               <h6><a href="#">${name}</a></h6>
