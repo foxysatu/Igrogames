@@ -65,19 +65,6 @@ app.get('/uploadphoto', (reg, res)=>{
         
         
         
-        function CheckQuery(inch, screen){
-            if((inch).length===0){
-                return ({screen: reg.query.screen});
-            };
-            if((screen).length===0){
-                return ({inch: reg.query.inch});
-            }
-            else{
-                return ({inch: reg.query.inch, screen: reg.query.screen});
-            }
-            
-        };
-        
     
         db
     .collection('uploadphoto')
@@ -129,8 +116,6 @@ app.post('/uploadphoto', upload.single('img'), (reg, res)=>{
  
     console.log(reg.body);
     console.log(reg.file.path);
-
-    
 
     const data = {
         dataFile: reg.file.path,

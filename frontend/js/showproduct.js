@@ -7,9 +7,8 @@ async function ShowCard() {
       const display = document.getElementById("list");
   
       let dataDisplay = data.map((object) => {
-        const { dataFile, name, kod, price } = object;
+        const { dataFile, name, kod, price, description } = object;
         return `
-        
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
@@ -36,7 +35,7 @@ async function ShowCard() {
                       </ul>
                       <div class="tab-content">
                           <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                              <h6>Description</h6>
+                              <h6>${description}</h6>
                           </div>
                       </div>
                   </div>

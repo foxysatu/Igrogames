@@ -7,6 +7,7 @@
         name: document.getElementById("name").value,
         kod: document.getElementById("kod").value,
         price: document.getElementById("price").value,
+        description: document.getElementById("description").value,
 
     };
     var data = new FormData();

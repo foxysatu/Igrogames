@@ -7,7 +7,7 @@ async function ShowAll() {
     const display = document.getElementById("list");
 
     let dataDisplay = data.map((object) => {
-      const { dataFile, name, kod, inch, screen, price } = object;
+      const { dataFile, name, kod, price } = object;
       return `
         <div class="col-lg-3 col-md-4 col-sm-6 mix ${object.category}" onclick="location.href='../frontend/product-details.html?kod=${kod}'">
           <div class="product__item">
