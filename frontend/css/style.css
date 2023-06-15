@@ -39,7 +39,7 @@ body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-color: #3E576F;
+	background-color: #1b1b1b;
 }
 
 h1,
@@ -193,7 +193,7 @@ ol {
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #3e576f;
+	background: #1b1b1b;
 }
 
 .loader {
@@ -1815,7 +1815,7 @@ ol {
 	display: inline-block;
 	font-size: 14px;
 	color: #ffffff;
-	background: #ca1515;
+	background: #6c2424;
 	font-weight: 600;
 	text-transform: uppercase;
 	padding: 14px 30px 15px;
