@@ -1789,36 +1789,6 @@ input[type="range"]::-webkit-slider-thumb {
 	margin-right: 15px;
 }
 
-.pro-qty {
-	height: 50px;
-	width: 150px;
-	border: 1px solid #ebebeb;
-	border-radius: 50px;
-	padding: 0 20px;
-	overflow: hidden;
-	display: inline-block;
-}
-
-.pro-qty .qtybtn {
-	font-size: 14px;
-	color: #666666;
-	cursor: pointer;
-	float: left;
-	width: 12px;
-	line-height: 46px;
-}
-
-.pro-qty input {
-	font-size: 14px;
-	color: #666666;
-	font-weight: 500;
-	border: none;
-	float: left;
-	width: 84px;
-	text-align: center;
-	height: 48px;
-}
-
 .product__details__button {
 	overflow: hidden;
 	margin-bottom: 25px;
