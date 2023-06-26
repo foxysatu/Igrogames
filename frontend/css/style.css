@@ -101,11 +101,10 @@ body {
   }
   body .footer .content > div .image {
 	align-self: center;
-	width: 4rem;
-	height: 4rem;
+	width: 14rem;
+	height: 2rem;
 	margin: 0.25rem 0;
-	background-size: cover;
-	background-position: center;
+	background: no-repeat;
   }
   
   @-webkit-keyframes bubble-size {
@@ -922,46 +921,6 @@ ol {
 /*---------------------
   footer
 -----------------------*/
-.site-footer
-{
-	z-index: 1;
-	display: grid;
-	position: relative;
-	--footer-background:#ED5565;
-	min-height: 12rem;
-  	background-color:#26272b;
-  	padding:45px 0 20px;
-  	font-size:15px;
-  	line-height:24px;
-  	color:#737373;
-}
-
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
 .footer-links
 {
   padding-left:0;
@@ -1256,6 +1215,9 @@ ol {
 	top: 0;
 }
 
+.product__item:hover {
+	box-shadow: #621111 0px 22px 70px 20px;
+}
 .product__item.sale .product__item__pic .label {
 	background: #ca1515;
 }
@@ -3285,7 +3247,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		max-width: 1170px;
+		max-width: 1300px;
 	}
 }
 
